@@ -146,6 +146,11 @@ p{
     width: 55%;
     filter: brightness(70%);
     border-radius: 6px;
+    object-fit: cover;
+}
+
+.about-profile-image{
+    height: 0%;
 }
 
 .about-profile-content p{
@@ -306,7 +311,14 @@ p{
    }
 
    .about-profile-image img{
-       width: 90%;
+       width: 40%;
+       margin: 1rem;
+   }
+
+   .about-profile-image{
+       margin-top: 2rem;
+       size: 20%;
+       text-align: left;
    }
 
     #collage_3{
@@ -372,7 +384,8 @@ p{
     }
 
     .about-profile-image img{
-        width: 100%;
+        object-fit: cover;
+        width: 95%;
     }
 
 }
